@@ -1,0 +1,123 @@
+/* .bg1{
+
+   background-image: url('../../../assets/login4.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0;
+   padding: 0;
+
+
+} */
+
+
+
+
+.registrationContainer {
+    max-width: 350px;
+    margin: 4rem auto;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     /* margin-left: 45%;
+    margin-bottom: 0%; */
+    
+  }
+  
+  .registrationContainer h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .registrationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #2d3748;
+  }
+  
+  input {
+    padding: 0.75rem 1rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 1px #3182ce;
+  }
+  
+  .passwordInput {
+    position: relative;
+  }
+  
+  .passwordToggle {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-2%);
+    cursor: pointer;
+    color: #718096;
+  }
+  
+  .registerButton {
+    padding: 0.75rem;
+    background-color: plum;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .registerButton:hover {
+    background-color: purple;
+  }
+  
+  .errorMessage {
+    color: #e53e3e;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  
+  .loginLink {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+  }
+  
+  .loginLink a {
+    color: #3182ce;
+    text-decoration: none;
+  }
+  
+  .loginLink a:hover {
+    text-decoration: underline;
+  }
+  
+  .registrationContainer {
+    /* Existing styles... */
+    overflow: hidden;
+    
+  }
+  

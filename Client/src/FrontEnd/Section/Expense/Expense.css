@@ -1,0 +1,137 @@
+.expense-entry-container {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.expense-entry-content {
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+.entry-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #343a40;
+}
+
+table-btn{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+.form-input,
+.form-textarea,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-textarea {
+  height: 80px;
+  resize: none;
+}
+
+.primary-btn,
+.submit-btn {
+  background-color:plum;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  align-self: flex-start;
+}
+
+.primary-btn:disabled {
+  background-color: plum;
+  cursor: not-allowed;
+}
+
+.gst-card {
+  background-color: #f1f3f5;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.gst-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.gst-row.total {
+  font-weight: bold;
+  border-top: 1px solid #ced4da;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.gst-rate-info {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+/* Table for added transactions */
+.transaction-list {
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.transaction-list h3 {
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.transaction-table th {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+
+.submit-btn {
+  background-color: purple;
+  margin-top: 1.5rem;
+
+}

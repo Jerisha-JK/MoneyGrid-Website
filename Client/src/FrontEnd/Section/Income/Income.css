@@ -1,0 +1,44 @@
+.dashboard-sidebar {
+    width: 250px;
+    background-color: #6a4c93;
+    color: white;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .dashboard-sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-sidebar nav ul li {
+    margin: 15px 0;
+    font-size: 18px;
+  }
+  
+  .dashboard-sidebar nav ul li:hover {
+    cursor: pointer;
+    background-color: #7e5fa6;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .dashboard-sidebar nav hr {
+    margin-top: 20px;
+    border-color: #fff;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Dashboard Container */
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f5;
+  }

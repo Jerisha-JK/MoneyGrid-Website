@@ -1,0 +1,144 @@
+.goal-container {
+  padding: 20px;
+  margin-bottom: 0%;
+}
+
+.goal-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.goal-form input[type="text"],
+.goal-form input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.goal-form button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.goal-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 20px;
+}
+
+.goal-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   display: flex; /* Enable Flexbox for the goal card */
+  flex-direction: column;
+}
+
+
+.title-and-toggle {
+  display: flex; /* Make this div a flex container */
+  align-items: center; /* Vertically align items within this div */
+  justify-content: space-between; /* Put space between toggle and title */
+  margin-bottom: 10px; /* Add some space below this line */
+}
+
+.goal-card h3 {
+  margin-top: 0;
+}
+
+.progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  height: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  background-color:purple;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  padding: 8px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width:120px
+}
+
+/* Toggle Switch Styling */
+.toggle-switch {
+  position: relative;
+    display: flex; /* Keep flex for internal alignment */
+  align-items: center;
+  gap: 8px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+  width: 45px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: plum;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

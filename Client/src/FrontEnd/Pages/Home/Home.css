@@ -1,0 +1,278 @@
+.hero-section {
+    padding-top: 160px;
+    padding-bottom: 80px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+  }
+
+  .section {
+    padding: 80px 20px;
+  }
+  
+  .blue-bg-light {
+    background-color: #ebf4ff; /* Tailwind blue-50 */
+  }
+  
+  .blue-bg-dark {
+    background-color: #2563eb; /* Tailwind blue-600 */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 32px;
+  }
+  
+  .four-cols {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  .three-cols {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .stat-value {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #2563eb;
+    margin-bottom: 8px;
+  }
+  
+  .stat-label {
+    color: #718096;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+  }
+  
+  .card-content {
+    padding-top: 16px;
+  }
+  
+  .feature-icon, .step-icon {
+    font-size: 40px;
+    color: #2563eb;
+    margin-bottom: 16px;
+  }
+  
+  .feature-title, .step-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .feature-description, .step-description {
+    color: #718096;
+  }
+  
+  .testimonial-card {
+    padding-top: 0;
+  }
+  
+  .testimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .testimonial-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-info {
+    margin-left: 12px;
+    text-align: left;
+  }
+  
+  .testimonial-name {
+    font-weight: 600;
+  }
+  
+  .testimonial-role {
+    font-size: 0.875rem;
+    color: #718096;
+  }
+  
+  .testimonial-quote {
+    color: #718096;
+  }
+  
+  .cta-section {
+    text-align: center;
+    background-color:plum;
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
+  
+  .cta-subtitle {
+    color: #cbd5e1;
+    margin-bottom: 32px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cta-button {
+    background: #ffffff;
+    color: plum;
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+  }
+  
+  .cta-button:hover {
+    background: purple;
+    color:#cbd5e1;
+  }
+
+  .stat-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+
+  .card, .cta-button, .primary-button {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.primary-button:hover, .cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 128, 0, 0.2);
+}
+
+.hero-img {
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+  height: auto;
+}
+
+  
+  /* Bounce Animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  
+  @media (min-width: 768px) {
+    .hero-title {
+      font-size: 6rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .hero-title {
+      font-size: 105px;
+    }
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+    color: #4b5563; /* Tailwind's gray-600 */
+    margin-bottom: 32px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .primary-button {
+    background-color: purple;
+    color: #fff;
+    padding: 12px 32px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .primary-button:hover{
+    background-color: plum;
+  }
+  
+  .outline-button {
+    background-color: transparent;
+    color: #6a4c93;
+    border: 2px solid #6a4c93;
+    padding: 12px 32px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .hero-image-wrapper {
+    margin-top: 40px;
+  }
+  
+  .hero-img {
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+    max-width: 100%;
+    height: auto;
+  }

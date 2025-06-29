@@ -1,0 +1,87 @@
+/* Navbar.css */
+
+.navbar {
+    background-color:purple; /* Light gray background */
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px; /* Optional: Limit the width of the container */
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .navbar-logo {
+    color: white; /* Red color for logo */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color:#eee
+  }
+  
+  .navbar-item {
+    margin-left: 1.5rem;
+    color: white;
+  }
+  
+  .navbar-link {
+    color: white; /* Dark gray color for links */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .navbar-link:hover {
+    color: #dc3545; /* Red color on hover */
+  }
+
+  .login-btn{
+    gap:200px;
+    background-color:white;
+    color:purple;
+    font-Weight:bold
+  }
+  
+  .login-btn:hover{
+    background-color: plum;
+    color: #eee;
+  
+  }
+  /* Responsive adjustments (example for smaller screens) */
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-logo {
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-menu {
+      flex-direction: column;
+      width: 100%;
+      border-top: 1px solid #eee; /* Separator for mobile menu */
+    }
+  
+    .navbar-item {
+      margin: 0;
+      border-bottom: 1px solid #eee; /* Separator between menu items */
+    }
+  
+    .navbar-link {
+      display: block;
+      padding: 0.75rem 1rem;
+    }
+  }
